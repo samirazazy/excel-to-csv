@@ -4,7 +4,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
   input.addEventListener('change', () => {
     readXlsxFile(input.files[0]).then((data) => {
-      console.log(data);
       arr = data;
     });
   });
